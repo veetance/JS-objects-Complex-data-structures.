@@ -1,17 +1,17 @@
 // quote += " - Veetance " //concactination//
 
-var quotes = [
-'"work smarter not harder. Don\'t waste your time." - Veetance', 
-'"Grip fast knowledge" - Loral in\'t school'
-];
+// var quotes = [
+// '"work smarter not harder. Don\'t waste your time." - Veetance', 
+// '"Grip fast knowledge" - Loral in\'t school'
+// ];
 
-var quote1 = {
-	quote: '"work smarter not harder. Don\'t waste your time."',
-	author: "Veetance",
-	tags: ["Advice", "Truth"],
-	color: "#4287f5", //blue
+function Quote( quoteT, authorT, tagsT, colorT) {
+	this.quote = quoteT;
+	this.author= authorT;
+	this.tags= tagsT;
+	this.color= colorT;  //blue
 	
-	display: function() {
+	this.display = function() {
 		var quoteString = "";
 		quoteString += "<div style='background:" + this.color + "'>";
 		quoteString += "<p>" + this.quote + "</p>";
@@ -20,29 +20,11 @@ var quote1 = {
 		$("body"). prepend(quoteString)
 	}
 }
+
+var quote1 = new Quote('"work smarter not harder. Don\'t waste your time."',"- Veetance",["Advice", "Truth"],"#4287f5");
+var quote2 = new Quote('"Grip fast knowledge"', '- Loral in\'t school', ["mottos", "primary schools"],"#eb4034");
 
 quote1.display();
-
-
-
-var quote2 = {
-	quote: '"Grip fast knowledge"',
-	author: "Loral Int'l school",
-	tags: ["Advice", "Truth"],
-	color: "#fcba03", //blue
-	
-	
-
-	display: function() {
-		var quoteString = "";
-		quoteString += "<div style='background:" + this.color + "'>";
-		quoteString += "<p>" + this.quote + "</p>";
-		quoteString += "<cite>" + this.author + "</cite>";
-		quoteString += "</div>"
-		$("body"). prepend(quoteString)
-	}
-}
-
 quote2.display();
 
 
@@ -53,17 +35,4 @@ quote2.display();
 
 
 
-console.log(quote1.quote);
-
-// var quoteString = "";
-// quotes.forEach(function(quote){
-
-// 	quoteString += "<p>" + quote + "</p>"
-
-
-// 	console.log(quoteString);
-
-// })
-
-// $("body").html(quoteString)
 
