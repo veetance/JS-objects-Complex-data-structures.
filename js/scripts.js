@@ -33,23 +33,23 @@ var quotes = [
  new Quote('"Flower for you."', "- Veetance", ["All","Blue", "3D"],"url(images/Flower.jpg)"),
  new Quote('"Dissolve in Aqua"', "- Veetance", [ "All","Red", "Generative", "3D"],"url(images/1.png)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Artboard_1.jpg)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative", "Blue"],"url(images/Artboard.jpg)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/basquiat.jpg)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/dejavu0101.jpg)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/kezzi22.png)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/LIFe.PNG)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/samantha3.png)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Sappy2.jpg"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(silowet.png)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(Teeeliaa.png)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(logos.jpg)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)")
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/vee.jpg)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/viral.jpg)")
  
 
 
