@@ -30,26 +30,26 @@ function Quote( quoteT, authorT, tagsT, imageT) {
 }
 
 var quotes = [
- new Quote('"Flower for you."', "- Veetance", ["All","Blue", "3D"],"url(images/Flower.jpg)"),
- new Quote('"Dissolve in Aqua"', "- Veetance", [ "All","Red", "Generative", "3D"],"url(images/1.png)"),
+ new Quote('"Flower for you".', "- Veetance", ["All","Blue", "3D"],"url(images/Flower.jpg)"),
+ new Quote('"Dissolve in Aqua"', "- Veetance", [ "All","Red", "Gen-art", "3D"],"url(images/1.png)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative", "Blue"],"url(images/Artboard.jpg)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/basquiat.jpg)"),
+ new Quote('"Not EQUAL"', "- Veetance", ["All", "Gen-art", "Blue", "Red"],"url(images/Artboard.jpg)"),
+ new Quote('"SMILE"', "- Basquiat", ["All", "3P"],"url(images/basquiat.jpg)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/dejavu0101.jpg)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/kezzi22.png)"),
+ new Quote('"Dejavu"', "- Veetance", ["All", "green"],"url(images/dejavu0101.jpg)"),
+ new Quote('"KEZZI!"', "- Veetance", ["All", "logo"],"url(images/kezzi22.png)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/LIFe.PNG)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/samantha3.png)"),
+ new Quote('"LIFE IS strangE"', "- Veetance", ["All", "Gen-art", "Red","green"],"url(images/LIFe.PNG)"),
+ new Quote('"M"', "- Veetance", ["All", "green", "3D"],"url(images/samantha3.png)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Sappy2.jpg"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/silowet.png)"),
+ new Quote('"SAHPPY"', "- Veetance", ["All", "Blue", "3P"],"url(images/Sappy2.jpg"),
+ new Quote('"Gang-Gang"', "- Veetance", ["All", "3P"],"url(images/silowet.png)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Teeeliaaa1.png)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/logos.jpg)"),
+ new Quote('"Forloop"', "- Veetance", ["All", "Gen-art", "Red"],"url(images/Teeeliaaa1.png)"),
+ new Quote('"Rune"', "- Veetance", ["All", "logo","3P"],"url(images/logos.jpg)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/vee.jpg)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/viral.jpg)")
+ new Quote('"Refraction"', "- Veetance", ["All", "Gen-art","Red","3D"],"url(images/vee.jpg)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Gen-art", "3P"],"url(images/viral.jpg)")
  
 
 
