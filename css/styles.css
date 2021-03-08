@@ -10,3 +10,16 @@ html,body{
 img {
 	max-width:100%;
 }
+
+body{
+	color: white;
+	font-size:150%;
+}
+
+div {
+width:250px;
+height: 250px;
+padding:20px;
+
+
+}
