@@ -45,7 +45,7 @@ var quotes = [
  new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Sappy2.jpg"),
  new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/silowet.png)"),
 
- new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Teeeliaaa.png)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Teeeliaaa1.png)"),
  new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/logos.jpg)"),
 
  new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/vee.jpg)"),
