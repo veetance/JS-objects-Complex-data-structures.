@@ -16,7 +16,7 @@ function Quote( quoteT, authorT, tagsT, colorT) {
 		var container = $("<div>")
 			this.tags.forEach(function(tag){
 				container.addClass(tag);
-				$("body").prepend("<button>" + tag + "</button>")
+				$(".buttons").prepend("<button>" + tag + "</button>")
 
 			})
 		container.css("background", this.color)
@@ -26,12 +26,12 @@ function Quote( quoteT, authorT, tagsT, colorT) {
 		quoteString += "<cite>" + this.author + "</cite>";
 
 		container.html(quoteString)
-		$("body"). prepend(container)
+		$(".quotes"). prepend(container)
 	}
 }
 
 var quotes = [
- new Quote('"work smarter not harder. Don\'t waste your time."',"- Veetance",["Advice", "Truth"],"#4287f5"),
+ new Quote('"work smarter not harder. Don\'t waste your time."',"- Veetance",["Advice", "Truth", "mottos"],"#4287f5"),
  new Quote('"Grip fast knowledge"', '- Loral in\'t school', ["mottos", "primary schools"],"#eb4034")
 ]
 

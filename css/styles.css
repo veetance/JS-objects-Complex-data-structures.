@@ -14,10 +14,29 @@ img {
 body{
 	color: white;
 	font-size:150%;
-	display:flex;
+	
 }
 
-div {
+.buttons{
+	display:flex;
+	grid-gap:10px;
+	align-content: center;
+	justify-content: center;
+
+	padding: 10px 0px 10px 0px;
+	
+}
+
+
+.quotes {
+color:white;
+display:flex;
+
+}
+
+
+
+div > div {
 width:250px;
 height: 250px;
 padding:20px;
