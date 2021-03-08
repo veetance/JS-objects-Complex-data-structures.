@@ -5,11 +5,11 @@
 // '"Grip fast knowledge" - Loral in\'t school'
 // ];
 
-function Quote( quoteT, authorT, tagsT, colorT) {
+function Quote( quoteT, authorT, tagsT, imageT) {
 	this.quote = quoteT;
 	this.author= authorT;
 	this.tags= tagsT;
-	this.color= colorT;  //blue
+	this.image= imageT;  //blue
 	
 	this.display = function() {
 
@@ -18,7 +18,7 @@ function Quote( quoteT, authorT, tagsT, colorT) {
 				container.addClass(tag);
 			})
 
-		container.css("background", this.color)
+		container.css("background-image", this.image)
 
 		var quoteString = "";
 		quoteString += "<p>" + this.quote + "</p>";
@@ -30,8 +30,13 @@ function Quote( quoteT, authorT, tagsT, colorT) {
 }
 
 var quotes = [
- new Quote('"work smarter not harder. Don\'t waste your time."',"- Veetance",["Advice", "Truth", "mottos"],"#4287f5"),
- new Quote('"Grip fast knowledge"', "- Loral in\'t school", ["mottos", "primary_schools"],"#eb4034")
+ new Quote('"Flower for you."', "- Veetance", ["All","Blue", "3D"],"url(images/Flower.jpg)"),
+ new Quote('"Dissolve in Aqua"', "- Veetance", [ "All","Red", "Generative", "3D"],"url(images/1.png)"),
+
+ new Quote('"galaxy"', "- Veetance", ["All", "Generative"],"url(images/Macro.png)")
+ 
+
+
 ]
 
 

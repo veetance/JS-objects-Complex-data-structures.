@@ -35,16 +35,32 @@ color: white;
 
 .quotes {
 color:white;
-display:flex;
+
+
+display: grid;
+width: 100vw;
+height: 100vh;
+grid-template-columns:  1fr 1fr ;
+grid-auto-rows: auto;
+grid-gap: 1em;
+
+
 
 }
 
 
 
 div > div {
-width:250px;
-height: 250px;
+
+
+
+
+
 padding:20px;
+
+  background-size: 100% ;
+    background-repeat: no-repeat;
+background-position: center center;
 
 
 }
