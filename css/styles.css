@@ -19,16 +19,18 @@ body{
 }
 
 
-
+.wrapperhead{
+	position: fixed;
+}
 
 .headeR{
-height :50px;
+height :50%;
 display:flex;
 justify-content: center; /* x axis */
 align-items: center; /* y axis */
+padding-top:auto;
+padding-bottom:auto;
 
-padding-top:50px;
-padding-bottom:50px;
 
 font: 400 1vw Arial;
 text-transform: uppercase;
