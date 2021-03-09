@@ -18,38 +18,38 @@ function Quote( quoteT, authorT, tagsT, imageT) {
 				container.addClass(tag);
 			})
 
-		container.css("background-image", this.image)
+			container.css("background-image", this.image)
 
-		var quoteString = "";
-		quoteString += "<p>" + this.quote + "</p>";
-		quoteString += "<cite>" + this.author + "</cite>";
+			var quoteString = "";
+			quoteString += "<p>" + this.quote + "</p>";
+			quoteString += "<cite>" + this.author + "</cite>";
 
-		container.html(quoteString)
+			container.html(quoteString)
 		$(".quotes").prepend(container)
 	}
 }
 
-var quotes = [
+ var quotes = [
  new Quote('"Flower for you".', "- Veetance", ["All","Blue", "3D"],"url(images/Flower.jpg)"),
- new Quote('"Dissolve in Aqua"', "- Veetance", [ "All","Red", "Gen-art", "3D"],"url(images/1.png)"),
+ new Quote('"Dissolve in Aqua"', "- Veetance", [ "All","Red", "GenArt", "3D"],"url(images/1.png)"),
 
- new Quote('"Not EQUAL"', "- Veetance", ["All", "Gen-art", "Blue", "Red"],"url(images/Artboard.jpg)"),
+ new Quote('"Not EQUAL"', "- Veetance", ["All", "GenArt", "Blue", "Red"],"url(images/Artboard.jpg)"),
  new Quote('"SMILE"', "- Basquiat", ["All", "3P"],"url(images/basquiat.jpg)"),
 
  new Quote('"Dejavu"', "- Veetance", ["All", "green"],"url(images/dejavu0101.jpg)"),
  new Quote('"KEZZI!"', "- Veetance", ["All", "logo"],"url(images/kezzi22.png)"),
 
- new Quote('"LIFE IS strangE"', "- Veetance", ["All", "Gen-art", "Red","green"],"url(images/LIFe.PNG)"),
+ new Quote('"LIFE IS strangE"', "- Veetance", ["All", "GenArt", "Red","green"],"url(images/LIFe.PNG)"),
  new Quote('"M"', "- Veetance", ["All", "green", "3D"],"url(images/samantha3.png)"),
 
  new Quote('"SAHPPY"', "- Veetance", ["All", "Blue", "3P"],"url(images/Sappy2.jpg"),
  new Quote('"Gang-Gang"', "- Veetance", ["All", "3P"],"url(images/silowet.png)"),
 
- new Quote('"Forloop"', "- Veetance", ["All", "Gen-art", "Red"],"url(images/Teeeliaaa1.png)"),
+ new Quote('"Forloop"', "- Veetance", ["All", "GenArt", "Red"],"url(images/Teeeliaaa1.png)"),
  new Quote('"Rune"', "- Veetance", ["All", "logo","3P"],"url(images/logos.jpg)"),
 
- new Quote('"Refraction"', "- Veetance", ["All", "Gen-art","Red","3D"],"url(images/vee.jpg)"),
- new Quote('"galaxy"', "- Veetance", ["All", "Gen-art", "3P"],"url(images/viral.jpg)")
+ new Quote('"Refraction"', "- Veetance", ["All", "GenArt","Red","3D"],"url(images/vee.jpg)"),
+ new Quote('"galaxy"', "- Veetance", ["All", "GenArt", "3P"],"url(images/viral.jpg)")
  
 
 
@@ -61,7 +61,7 @@ var tagList = []
 
 quotes.forEach( function (quote){
 	quote.display();
-	quote.tags.forEach(function(tag){
+		quote.tags.forEach(function(tag){
 		//check to see if tag has been added to taglist 
 		if(!tagList.includes(tag)) {
 		//if it isnt added, add it
@@ -85,9 +85,6 @@ $(".filter").on("click", function() {
 
 	$(".filter").removeClass("active")
 	$(this).addClass("active")
-
-	
-
 })
 
 
